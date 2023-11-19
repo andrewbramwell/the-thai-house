@@ -1,0 +1,475 @@
+---
+title: 'Thai Massage'
+description: ''
+preloadImg: '/assets/images/aroma-massage.webp'
+permalink: '/'
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/local.css" />
+    <link rel="stylesheet" href="/css/critical.css" />
+
+    <!-- Script for Netlify Identity -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer>
+        if (window.netlifyIdentity) {
+            window
+                .netlifyIdentity
+                .on('init', (user) => {
+                    if (!user) {
+                        window
+                            .netlifyIdentity
+                            .on('login', () => {
+                                document.location.href = '/admin/';
+                            });
+                    }
+                });
+        }
+    </script>
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1035">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">
+                Mind and Body Thai Spa
+            </span>
+            <h1 class="cs-title">Experience Tranquil Thai Massage in Edinburgh</h1>
+            <p class="cs-text">
+                Celebrating eight years of excellence in the historic heart of Scotland's capital, Mind and Body Thai Spa invites you to discover a haven of serenity. Our expert therapists, dedicated to reviving and honoring Thai traditions, offer a tranquil retreat that rejuvenates both body and mind.
+            </p>
+            <a href="/" class="cs-button-solid">Book An Appointment</a>
+            
+        </div>
+        <div class="cs-image-group">
+            <img class="cs-icon" aria-hidden="true" src="/assets/svgs/trip-w.svg" decoding="async" alt="icon" width="116" height="124">
+            
+            <h2 class="cs-h2">Winner of TripAdvisor's Travelers' Choice 2023</h2>
+            <p class="cs-desc">
+                Recognized for exceptional service and quality, we're proud to be the top-rated destination for Thai massage in Edinburgh.
+            </p>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/facial.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/facial.jpg">
+                <img decoding="async" src="/assets/images/facial.jpg" alt="facial" width="1280" height="568">
+            </picture>
+        </div>
+    </div>
+    <!--Background image-->
+    <!--Added background image in css at 1600px for parallax effect-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/city-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/city.webp">
+        <img decoding="async" src="/assets/images/city.jpg" alt="edinburgh" width="1290" height="1029">
+    </picture>
+</section>
+
+
+<!-- ============================================ -->
+<!--                Why Choose Us                 -->
+<!-- ============================================ -->
+
+<section id="why-choose-223">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Why Us</span>
+            <h2 class="cs-title">Excellence in Authentic Thai Massage</h2>
+            <p class="cs-text">
+                At Mind and Body Thai Spa, our eight-year journey in Edinburgh embodies a commitment to the art of Thai wellness. Rooted in tradition and refined by expertise, our spa offers a sanctuary of relaxation and rejuvenation. We pride ourselves on our exceptional service, honed through years of dedicated practice, and our ability to provide a truly personalized Thai massage experience.
+            </p>
+            <a href="/about/" class="cs-button-solid">More About Us</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/certificate.svg" alt="Authentic Atmosphere" width="72" height="72">
+                <h3 class="cs-h3">Expert Staff</h3>
+                <p class="cs-item-text">
+                    Our therapists are trained by qualified, accredited professionals and participate in regular training to enhance their techniques. This commitment to professional development ensures that every treatment is both skilled and sensitive to your wellness needs.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/customer.svg" alt="Certified Professionals" width="72" height="72">
+                <h3 class="cs-h3">Customer Centric </h3>
+                <p class="cs-item-text">
+                    We prioritize your satisfaction and comfort above all. By continually learning and applying the best techniques, we ensure that each massage or spa treatment is adapted to meet your specific preferences and wellness goals.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/rated.svg" alt="Centrally Located" width="72" height="72">
+                <h3 class="cs-h3">Highly Rated</h3>
+                <p class="cs-item-text">
+                    Our dedication to quality and service is reflected in our 4.6-star rating on Google and a perfect 5-star rating on TripAdvisor. These reviews from our valued customers speak to the exceptional experiences we strive to provide every day.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/location.svg" alt="Hygienic Practices" width="72" height="72">
+                <h3 class="cs-h3">Centrally Located</h3>
+                <p class="cs-item-text">
+                    Situated in Edinburgh's historic West End, and easily accessible by bus, train, or tram. Our prime location, close to top hotels, restaurants, and attractions like Edinburgh Castle, makes us a convenient choice for both visiting tourists and local residents.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+                                
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-865">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <picture class="cs-background">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/couples-m.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/couples.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/couples.webp" alt="therapy" width="1280" height="568">
+            </picture>
+            <div class="cs-box">
+                <span class="cs-number">2500+</span>
+                <span class="cs-desc">
+                    Customers served 
+                </span>
+            </div>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Popular</span>
+            <h2 class="cs-title">Couples Massage in Edinburgh</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. 
+            </p>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. 
+            </p>
+            <a href="/couples-massage/" class="cs-button-solid">Couples Massage</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-1524">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Popular</span>
+            <h2 class="cs-title">
+                Featured Massages at Mind and Body Thai Spa
+            </h2>
+            <p class="cs-text">
+                Explore a world of relaxation with our featured massages, each offering its own unique benefits. Delve into a variety of styles, from soothing traditional techniques to innovative therapeutic treatments, tailored to rejuvenate both mind and body.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-image-group">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)"
+                            srcset="/assets/images/services/deep-tissue.webp" />
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)"
+                            srcset="/assets/images/services/deep-tissue.webp" />
+                        <img loading="lazy" decoding="async"
+                            src="/assets/images/services/deep-tissue.webp" alt="deep tissue"
+                            width="413" height="240" aria-hidden="true" />
+                    </picture>
+                </div>
+                <div class="cs-info">
+                    <h3 class="cs-h3">Deep Tissue Massage</h3>
+                    <p class="cs-item-text">
+                        Utilizes oil and deep, smooth pressure to relieve muscle tension and inflammation, particularly beneficial for regular sports participants.
+                    </p>
+                </div>
+                <div class="cs-details">
+                    <div class="cs-category">
+                        <span class="cs-heading">30 MINS</span>
+                        <span class="cs-desc">£60</span>
+                    </div>
+                    <div class="cs-category">
+                        <span class="cs-heading">60 MINS</span>
+                        <span class="cs-desc">£85</span>
+                    </div>
+                    <div class="cs-category">
+                        <span class="cs-heading">90 MINS</span>
+                        <span class="cs-desc">£110</span>
+                    </div> 
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-group">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)"
+                            srcset="/assets/images/services/swedish.webp" />
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)"
+                            srcset="/assets/images/services/swedish.webp" />
+                        <img loading="lazy" decoding="async"
+                            src="/assets/images/services/swedish.webp" alt="swedish massage"
+                            width="413" height="240" aria-hidden="true" />
+                    </picture>
+                </div>
+                <div class="cs-info">
+                    <h3 class="cs-h3">Swedish Relax Massage</h3>
+                    <p class="cs-item-text">
+                        Aims to relax the entire body through muscle rubbing with gliding strokes, enhancing blood oxygen levels and improving circulation.
+                    </p>
+                </div>
+                <div class="cs-details">
+                    <div class="cs-category">
+                        <span class="cs-heading">30 MINS</span>
+                        <span class="cs-desc">£50</span>
+                    </div>
+                    <div class="cs-category">
+                        <span class="cs-heading">60 MINS</span>
+                        <span class="cs-desc">£75</span>
+                    </div>
+                    <div class="cs-category">
+                        <span class="cs-heading">60 MINS</span>
+                        <span class="cs-desc">£100</span>
+                    </div> 
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-group">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)"
+                            srcset="/assets/images/services/back.webp" />
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)"
+                            srcset="/assets/images/services/back.webp" />
+                        <img loading="lazy" decoding="async"
+                            src="/assets/images/services/back.webp" alt="kids"
+                            width="413" height="240" aria-hidden="true" />
+                    </picture>
+                </div>
+                <div class="cs-info">
+                    <h3 class="cs-h3">Neck, Back & Shoulders</h3>
+                    <p class="cs-item-text">
+                        Focused treatment for the neck and surrounding areas, crucial for relieving muscle stress and providing necessary relief.
+                    </p>
+                </div>
+                <div class="cs-details">
+                    <div class="cs-category">
+                        <span class="cs-heading">30 MIN</span>
+                        <span class="cs-desc">£30</span>
+                    </div>
+                    <div class="cs-category">
+                        <span class="cs-heading">60 MIN</span>
+                        <span class="cs-desc">£50</span>
+                    </div>
+                    <div class="cs-category">
+                        <span class="cs-heading">90 MIN</span>
+                        <span class="cs-desc">£75</span>
+                    </div> 
+                    <div class="cs-category">
+                        <span class="cs-heading">120 MIN</span>
+                        <span class="cs-desc">£100</span>
+                    </div> 
+                </div>
+            </li>
+        </ul>
+        <a href="/massage/" class="cs-button-solid">All Massages</a>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbs-r-868">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <picture class="cs-background">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/thai-combi.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/thai-combi.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/thai-combi.jpg" alt="therapy" width="1280" height="568">
+            </picture>
+           <div class="cs-box">
+                <span class="cs-number">2500+</span>
+                <span class="cs-desc">
+                    Customers served 
+                </span>
+            </div>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Popular</span>
+            <h2 class="cs-title">Thai Combination Massage</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. 
+            </p>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. 
+            </p>                  
+            <a href="/thai-combination-massage/" class="cs-button-solid">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-1503">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">FAQ's</span>
+            <h2 class="cs-title">Frequently Asked Questions About Our Spa Services</h2>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <span class="cs-number">48+</span>
+                    <p class="cs-item-text">
+                        <strong>Lorem ipsum</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-number">2.5k</span>
+                    <p class="cs-item-text">
+                        <strong>Lorem ipsum</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-flex-group">
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                        </span>
+                        <span class="cs-indicator" aria-hidden="true"></span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                        </span>
+                        <span class="cs-indicator" aria-hidden="true"></span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                        </span>
+                        <span class="cs-indicator" aria-hidden="true"></span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                        </span>
+                        <span class="cs-indicator" aria-hidden="true"></span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                        </span>
+                        <span class="cs-indicator" aria-hidden="true"></span>
+                    </button>
+                    <p class="cs-item-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-591">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Testimonials</span>
+            <h2 class="cs-title">What Our Valued Clients Say About Us</h2>
+            <p class="cs-text">
+                At Mind and Body Thai Spa, we take pride in creating memorable wellness experiences for each of our clients, whether they're Edinburgh locals or international visitors. Our dedication to exceptional service and authentic Thai massage has earned us heartfelt praise. Here's what some of our satisfied clients have to say about their experiences with us.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">You need to go!</h3>
+                <p class="cs-item-text">
+                    Best massage I’ve ever had (and I’ve had a lot!) Staff were lovely. We had a couples message which I’d recommend. I didn’t even need to tell the women my pain areas as she felt them. We could only get in for a 30 min slot as we called up on the day (on the off chance they had a slot) and they still managed to do neck shoulders, back and arms You need to go! And this place is so cheap, they could double their prices easily. Thank you again
+                </p>
+                <span class="cs-name">Rhian L</span>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Best I've had!</h3>
+                <p class="cs-item-text">
+                    I was in Edinburgh only 2 days before traveling to England - my friend booked a massage here for 4 of us since we'd just flown from the US and were about to embark on a 7 day hike across England. Best decision ever!!!! We all absolutely loved our deep tissue/stretching Thai massage!! I have been a regular for deep tissue massage for the past 20+ years at various massage therapists all over the US. This place was the best massage I have ever had!!! 
+                </p>
+                <span class="cs-name">Maestro M</span>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Exceptional!</h3>
+                <p class="cs-item-text">
+                    I just walked in the spa when I found it on google map, and Nok who was at the reception was very welcoming and helped me to choose the services. I got neck+back+shoulder massage plus reflexology. The therapist was also very sweet and her skill was exceptional! Honestly the best massage I’ve ever received and cannot recommend you enough.
+                </p>
+                <span class="cs-name">Sanae</span>
+            </li>
+        </ul>
+        <a href="https://www.google.com/search?q=mindandbodyspa+&rlz=1C1CHBD_en-GBGB852GB852&sxsrf=ALeKk01sfMuc_CDFPvKMUG65kWgsiYhPTA%3A1625919564262&ei=TJDpYMfAD6GAhbIP-pyf2Ag&oq=mindandbodyspa+&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyCgguEMcBEK8BEA0yCgguEMcBEK8BEA0yBAgAEA0yCgguEMcBEK8BEA0yBggAEA0QHjIGCAAQDRAeMgYIABANEB4yBggAEA0QHjIGCAAQDRAeOgcIIxCwAxAnSgQIQRgAUKuuCVjDrwlgr7AJaABwAHgAgAFciAG-ApIBATSYAQCgAQGqAQdnd3Mtd2l6yAEBwAEB&sclient=gws-wiz&ved=0ahUKEwjHlr6wvtjxAhUhQEEAHXrOB4sQ4dUDCA4&uact=5#lrd=0x4887c7a465f2ac5d:0x828e6822d378460,1,,," target="_blank" rel="noopener" class="cs-button-solid">Leave A Review</a>
+    </div>
+</section>
+                                
+
+{% include 'components/cta.html' %}                    
+           
+<script>
+    const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
+        for (const item of faqItems) {
+            const onClick = () => {
+            item.classList.toggle('active')
+        }
+        item.addEventListener('click', onClick)
+        } 
+</script>
+                                
+{% endblock %}

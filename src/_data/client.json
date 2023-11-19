@@ -1,0 +1,16 @@
+{
+	"name": "Mind & Body Thai Spa",
+	"email": "hello@atouchofthaimassage.co.uk",
+	"phoneForTel": "+441316295860",
+	"phoneFormatted": "0131 629 5860",
+	"whatsApp": "https://wa.me/+44",
+	"address": {
+		"lineOne": "244 Morrison St",
+		"lineTwo": "",
+		"city": "Edinburgh",
+		"state": "",
+		"zip": "EH3 8DT",
+		"mapLink": "https://maps.app.goo.gl/DumZocS1DTP2ah6R7"
+	},
+	"domain": "mindandbodyspa.co.uk"
+}

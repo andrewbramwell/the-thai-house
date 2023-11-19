@@ -1,0 +1,138 @@
+---
+title: 'Reviews'
+description: ""
+preloadImg: '/assets/images/int-hero.webp'
+permalink: 'reviews/'
+eleventyNavigation:
+    parent: About
+    key: Reviews
+    order: 220
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/reviews.css">
+{% endblock %}
+
+{% block body %}
+
+ <!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1106">
+    <div class="cs-container">
+        <span class="cs-int-title">Reviews</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/reviews" class="cs-link cs-active">Reviews</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/int-hero-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/int-hero.webp">
+        <img decoding="async" src="/assets/images/int-hero.webp" alt="massage oil" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+    <!-- ============================================ -->
+    <!--                  Reviews                     -->
+    <!-- ============================================ -->
+
+    <section id="reviews">
+        <div class="container">
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    Just had an amazing massage from Jin without doubt the best in town and I have tried them all. Mind and body is a great place to relax and have a fantastic massage for 90 mins and come out feeling like a new person. I highly recommend.
+                </p>
+                <div class="star-group">
+                    <span class="name">Steve Bonita</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    The staff were so lovely,kind and welcoming. Very cozy and friendly atmosphere. Booking my facial was flawless and the treatment was so worth it. Very very relaxing and the facial made my face glow for the rest of the day.💌
+                </p>
+                <div class="star-group">
+                    <span class="name">Jessica Igba</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    We’re visiting Edinburgh for our honeymoon and decided to unwind from our long flight with a massage, and wound up here. They did a great job, wonderful massage and very nice!
+                </p>
+                <div class="star-group">
+                    <span class="name">Emily Bury</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+            
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    Great massage, one of the best I've had. Very relaxing but effective at the same time, made a huge difference to the knots in my neck and shoulders. Will definitely go back.
+                </p>
+                <div class="star-group">
+                    <span class="name">Melissa Black</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    Just had the best massage ever. Would highly recommend. The salon is beautiful and peaceful & the girls are lovely and very professional.
+                </p>
+                <div class="star-group">
+                    <span class="name">Sarah Butcher</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    Lovely place staff are very attentive on arrival. Therapist really worked on deep knots on my back and side. Felt so relaxed after. I would highly recommend!
+                </p>
+                <div class="star-group">
+                    <span class="name">Samantha Wilson</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}
