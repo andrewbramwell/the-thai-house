@@ -1,0 +1,84 @@
+---
+title: 'Foot Massage'
+description: ''
+preloadImg: '/assets/images/int-hero.webp'
+permalink: 'foot-massage/'
+eleventyNavigation:
+    parent: SERVICES
+    key: Foot Massage
+    order: 340
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/services.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1106">
+    <div class="cs-container">
+        <span class="cs-int-title">Foot Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/foot-massage/" class="cs-link cs-active">Foot Massage</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/int-hero.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/int-hero.webp">
+        <img decoding="async" src="/assets/images/int-hero.jpg" alt="massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-713">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Foot Reflexology Massage at The Thai House, Aberdeen</span></h1>
+            <p>Welcome to The Thai House in Aberdeen, your sanctuary for holistic healing and relaxation. Discover the ancient art of foot reflexology massage, a unique and specialized therapeutic practice that focuses on stimulating specific points on the feet to promote overall well-being and tranquility.</p>
+            <p>During your foot reflexology session at The Thai House, our experienced therapists will expertly apply targeted pressure to various reflex points on your feet. These points correspond to different organs and systems in your body, and stimulating them helps alleviate tension, boost circulation, and harmonize your body's energy pathways.</p>
+            <p>Embark on a journey to The Thai House in Aberdeen and give your feet the care and attention they deserve. Our foot reflexology massage is more than just a treatment; it's a pathway to a more balanced and revitalized state of being, provided in a peaceful and nurturing environment.</p>
+            <h2>Benefits of Foot Reflexology Massage</h2>
+            <ul>
+                <li><strong>Stress Relief:</strong> Step into a world of calm and relaxation with our Foot Reflexology Massage. This technique focuses on specific reflex points on your feet to release tension and calm your mind. It's an ideal escape from the pressures of daily life, helping you achieve a state of profound relaxation. By easing your mind and body, foot reflexology provides an effective way to reduce stress and enhance your overall sense of well-being.</li>
+                <li><strong>Improved Circulation:</strong> Experience the benefits of improved blood flow and circulation throughout your body with our Foot Reflexology Massage. By stimulating reflex points that correspond to different organs and systems, this massage promotes better health and vitality. Enhanced circulation not only nourishes your cells but also aids in the efficient removal of toxins, contributing to your body's natural healing process.</li>
+                <li><strong>Pain Relief:</strong> Foot Reflexology Massage at The Thai House is an excellent way to find relief from discomfort and pain, especially in the feet, ankles, and lower legs. This therapy can be particularly beneficial for those suffering from conditions like plantar fasciitis, arthritis, and general foot soreness. By applying precise pressure to reflex points, our therapists help alleviate tension and reduce pain, offering a soothing and therapeutic experience.</li>
+                <li><strong>Enhanced Energy Levels:</strong> Rebalance and rejuvenate your energy levels through our Foot Reflexology Massage. This technique works by removing energy blockages and restoring the smooth flow of energy throughout your body. As a result, you'll leave feeling more energized and revitalized, ready to tackle your day with renewed vigor.</li>
+                <li><strong>Improved Overall Well-being:</strong> Regular Foot Reflexology sessions at The Thai House can have a holistic impact on your physical, mental, and emotional health. This form of massage is known to reduce anxiety, improve sleep quality, and promote a sense of holistic wellness. By integrating physical relaxation with mental and emotional calm, foot reflexology contributes significantly to your overall sense of health and happiness.</li>
+            </ul>
+     </div>
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/couples.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/couples.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/couples.webp" alt="massage" width="570" height="680" aria-hidden="true">
+            </picture>
+        </div>
+    </div>
+    <!--Waves Graphic-->
+    <picture class="cs-background">
+        <img src="/assets/svgs/large-waves.svg" alt="waves" decoding="async" aria-hidden="true" width="625" height="952">
+    </picture>
+</section>
+
+
+
+
+{% include 'components/cta.html' %}
+                                
+ 
+{% endblock %}

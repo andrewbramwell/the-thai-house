@@ -1,11 +1,9 @@
 ---
-title: 'Promotions'
-description: ''
+title: 'Blog'
+description: 'Meta description for the page'
 preloadImg: '/assets/images/int-hero.webp'
-permalink: 'promotion/'
-eleventyNavigation:
-    key: Promotion
-    order: 500
+permalink: false
+
 ---
 
 {% extends "layouts/base.html" %}
@@ -16,26 +14,17 @@ eleventyNavigation:
 
 {% block body %}
     <!-- ============================================ -->
-<!--                   Banner                     -->
-<!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
 
-<div id="banner-1106">
-    <div class="cs-container">
-        <span class="cs-int-title">Promotions</span>
-        <div class="cs-breadcrumbs">
-            <a href="/" class="cs-link">Home</a>
-            <a href="/blog/" class="cs-link cs-active">Promotions</a>
-        </div>
-    </div>
-    <!--Background Image-->
-    <picture class="cs-background">
-        <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="/assets/images/int-hero-m.webp">
-        <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="/assets/images/int-hero.webp">
-        <img decoding="async" src="/assets/images/int-hero.webp" alt="massage oil" width="1280" height="568" aria-hidden="true">
-    </picture>
-</div>
+    <section id="int-hero">
+        <h1 id="home-h">Blog</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+    </section>
 
     <!-- ============================================ -->
     <!--              Main Blog Content               -->

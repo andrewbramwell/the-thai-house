@@ -1,16 +1,18 @@
 {
-	"name": "Mind & Body Thai Spa",
-	"email": "hello@atouchofthaimassage.co.uk",
-	"phoneForTel": "+441316295860",
-	"phoneFormatted": "0131 629 5860",
-	"whatsApp": "https://wa.me/+44",
+	"name": "The Thai House",
+	"email": "thaihouse11ab@hotmail.com",
+	"phoneForTel": "+441224644949 ",
+	"phoneFormatted": "01224 644949",
+	"phoneForMobile": "+447850222282",
+	"mobileFormatted": "078502 22282",
+	"whatsapp": "/",
 	"address": {
-		"lineOne": "244 Morrison St",
-		"lineTwo": "",
-		"city": "Edinburgh",
-		"state": "",
-		"zip": "EH3 8DT",
-		"mapLink": "https://maps.app.goo.gl/DumZocS1DTP2ah6R7"
+		"lineOne": "11 Summer Street",
+		"lineTwo": "Off Union Street",
+		"city": "Aberdeen,",
+		"state": "Scotland",
+		"zip": "AB10 1SB",
+		"mapLink": "https://goo.gl/maps/"
 	},
-	"domain": "mindandbodyspa.co.uk"
+	"domain": "thethaihouse.co.uk"
 }

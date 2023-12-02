@@ -1,0 +1,82 @@
+---
+title: 'Aromatherapy Massage'
+description: ''
+preloadImg: '/assets/images/int-hero.webp'
+permalink: 'aromatherapy/'
+eleventyNavigation:
+    parent: SERVICES
+    key: Aromatherapy
+    order: 330
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/services.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1106">
+    <div class="cs-container">
+        <span class="cs-int-title">Aromatherapy Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/aromatherapy/" class="cs-link cs-active">Aromatherapy</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/int-hero.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/int-hero.webp">
+        <img decoding="async" src="/assets/images/int-hero.jpg" alt="massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-713">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Aromatherapy Massage at The Thai House, Aberdeen</span></h1>
+            <p>Welcome to The Thai House in Aberdeen, your gateway to the serene world of Aromatherapy Massage. Our Aromatherapy Massage is a holistic therapeutic practice that beautifully merges traditional massage techniques with the potent properties of essential oils to offer a deeply soothing and rejuvenating experience.</p>
+            <p>In your Aromatherapy Massage session at The Thai House, our expert therapists will use gentle yet effective strokes, complemented by a selection of essential oils extracted from herbs, flowers, and fruits. These oils are chosen for their distinctive aromatic qualities and therapeutic properties, enhancing the massage experience by engaging your senses and promoting healing and relaxation on multiple levels.</p>
+            <p>This form of massage is particularly effective in alleviating stress, easing muscle tension, and improving circulation. The use of specific essential oils, each with its own unique scent and healing benefits, allows for a personalized experience. Whether you need the calming effects of lavender, the soothing properties of jasmine and rose, the respiratory benefits of eucalyptus, or the invigorating influence of sweet orange or lemon, our therapists will tailor the oil selection to suit your individual needs and preferences.</p>
+            <p>The combination of skilled massage and aromatic essential oils in our Aromatherapy Massage ensures a holistic treatment that not only soothes the body but also calms the mind, enhancing your overall sense of well-being.</p>
+            <h2>Benefits of Aromatherapy Massage</h2>
+            <ul>
+                <li><strong>Relaxation and Stress Reduction:</strong> Our Aromatherapy Massage is designed to induce deep relaxation by calming your nervous system. The gentle touch and soothing scent of essential oils work together to release tension, helping you drift into a tranquil state. This effective combination significantly reduces stress and anxiety, leaving you feeling deeply relaxed and rejuvenated.</li>
+                <li><strong>Improved Mood and Emotional Well-being:</strong> The aromatic properties of the essential oils used in our Aromatherapy Massage have a direct impact on your limbic system, the part of the brain responsible for emotions. Oils like lavender, jasmine, or rose can uplift your spirits, alleviate feelings of depression, and foster an overall sense of well-being. This sensory experience is crafted to enhance your mood and emotional health.</li>
+                <li><strong>Relief from Muscular Tension and Pain:</strong> Our skilled massage techniques, when combined with the healing properties of certain essential oils, offer relief from muscle tension and pain. Oils with anti-inflammatory and analgesic properties, such as eucalyptus or peppermint, are used to soothe sore muscles, reduce stiffness, and aid in the recovery of tired or overworked muscles.</li>
+                <li><strong>Enhanced Sleep Quality:</strong> If you're battling with sleep issues like insomnia or restlessness, our Aromatherapy Massage can be a natural aid. We use calming oils like lavender or chamomile to relax your mind and body, promoting a peaceful sleep environment. This therapeutic approach can significantly improve your sleep quality, helping you wake up feeling refreshed and revitalized.</li>
+                <li><strong>Improved Circulation and Detoxification:</strong> The combination of our massage techniques and invigorating essential oils such as lemon or rosemary helps to enhance blood circulation. Improved circulation ensures more efficient delivery of oxygen and nutrients to your body's tissues and aids in the removal of toxins and waste products. This not only supports your body's natural detoxification processes but also contributes to overall health and vitality.</li>
+            </ul>
+     </div>
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/couples.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/couples.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/couples.webp" alt="massage" width="570" height="680" aria-hidden="true">
+            </picture>
+        </div>
+    </div>
+    <!--Waves Graphic-->
+    <picture class="cs-background">
+        <img src="/assets/svgs/large-waves.svg" alt="waves" decoding="async" aria-hidden="true" width="625" height="952">
+    </picture>
+</section>
+
+{% include 'components/cta.html' %}
+                                
+ 
+{% endblock %}

@@ -1,0 +1,81 @@
+---
+title: 'Back and Shoulder Massage'
+description: ''
+preloadImg: '/assets/images/int-hero.webp'
+permalink: 'back-massage/'
+eleventyNavigation:
+    parent: SERVICES
+    key: Back & Shoulder
+    order: 350
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/services.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1106">
+    <div class="cs-container">
+        <span class="cs-int-title">Back and Shoulder Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/back-massage/" class="cs-link cs-active">Back and Shoulder Massage</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/int-hero.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/int-hero.webp">
+        <img decoding="async" src="/assets/images/int-hero.jpg" alt="massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-713">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Back and Shoulders Massage at The Thai House, Aberdeen</span></h1>
+            <p>Welcome to The Thai House in Aberdeen, where our Back and Shoulders Massage offers a perfect solution for relieving tension and discomfort. This specialized therapy is designed to target the common areas of stress in your back and shoulders, providing relief for those who experience chronic pain, stiffness, or carry stress in these areas.</p>
+            <p>During your Back and Shoulders Massage session, our experienced therapists will employ a variety of techniques to deeply work into the muscles of your back and shoulders. This includes kneading tight muscles, applying pressure to trigger points, and using gentle strokes to release tension. The focus is on reducing soreness, improving flexibility, and easing the strain that can accumulate in these areas from daily activities, work, or exercise.</p>
+            <p>This therapeutic massage is more than a physical relief; it's a holistic approach to ease mental stress and promote overall well-being. Whether you're looking to recover from physical exertion, manage chronic pain, or simply unwind and relax, our Back and Shoulders Massage is tailored to meet your individual needs.</p>
+            <h2>Benefits of Back and Shoulders Massage</h2>
+            <ul>
+                <li><strong>Targeted Tension Relief:</strong> Our Back and Shoulders Massage specifically targets areas that commonly hold tension, such as the lower and upper back, as well as the shoulder region. This focused approach ensures effective relief from stiffness, muscle knots, and soreness, helping to alleviate discomfort caused by daily stressors or physical activities.</li>
+                <li><strong>Improved Posture and Mobility:</strong> Regular Back and Shoulders Massage sessions can significantly improve posture and enhance mobility. By relieving tension in the back and shoulder muscles, the massage helps to correct imbalances that lead to poor posture. This is particularly beneficial for individuals who spend long hours sitting or engaging in repetitive movements.</li>
+                <li><strong>Stress Reduction:</strong> Our massage techniques are designed to promote profound relaxation, effectively reducing mental and emotional stress. The soothing strokes and pressure applied during the massage encourage a state of mental calmness, helping to clear your mind and reduce anxiety.</li>
+                <li><strong>Enhanced Circulation:</strong> The massage stimulates blood flow throughout the back and shoulder areas. Improved circulation facilitates the delivery of oxygen and nutrients to tired and tense muscles, enhancing the body’s natural healing process.</li>
+                <li><strong>Boosted Immune System and Overall Health:</strong> Beyond the immediate relaxation and pain relief, regular Back and Shoulders Massage can contribute to a stronger immune system. The reduction of stress and improvement in circulation play a crucial role in boosting the body's natural defense mechanisms.</li>
+            </ul>
+     </div>
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/couples.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/couples.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/couples.webp" alt="massage" width="570" height="680" aria-hidden="true">
+            </picture>
+        </div>
+    </div>
+    <!--Waves Graphic-->
+    <picture class="cs-background">
+        <img src="/assets/svgs/large-waves.svg" alt="waves" decoding="async" aria-hidden="true" width="625" height="952">
+    </picture>
+</section>
+
+{% include 'components/cta.html' %}
+                                
+ 
+{% endblock %}
